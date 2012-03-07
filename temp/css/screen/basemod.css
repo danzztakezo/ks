@@ -1,0 +1,27 @@
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS framework
+ * (en) stylesheet for screen layout
+ * (de) Stylesheet für das Bildschirm-Layout
+ *
+ * @creator       YAML Builder V1.2.1 (http://builder.yaml.de)
+ * @file          basemod.css
+ * @-yaml-minver  3.3
+ */
+
+@media screen, projection
+{
+  body { overflow-y: scroll; }
+  body { padding: 0px 0; }
+  #headinfo { height: 30px; width: 100%; min-width: 100%; background: gray; position: fixed; top: 0px; left: 0px; z-index: 1000; }
+  .page_margins { margin: 30px auto; }
+  .page_margins { width: auto;  min-width: 1000px; max-width: 1000px; background: #fff; }
+  .page { padding: 10px; }
+  #header { color: #000; background: url(../../images/logo.jpg) no-repeat; height: 100px; }
+  #header #topnav { position: absolute; top: 90px; left: 590px; text-align: right; }
+  #main { margin: 5px 0; background: #fff; }
+  #footer { border-top: 1px #efefef solid; }
+  #main { padding: 0px; }
+  .clear{ clear: both; }
+  .separator { height: 5px; }
+  .panel { border: 1px #ccc solid; min-height: 30px; border-radius: 7px;}
+}

@@ -1,0 +1,123 @@
+@media screen , projection {
+	body {
+		overflow-y: scroll;
+	}
+	body {
+		padding: 0px 0;
+		background: url(../../images/bg_body.gif);
+	}
+	#headinfo {
+		height: 30px;
+		width: 100%;
+		min-width: 100%;
+		background: #2D2D2D;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 1000;
+		color: white;
+		font-size: 12px;
+		text-align: right;
+	}
+	#headinfo a {
+		color: #fff;
+	}
+	#headinfo a:visited {
+		color: #fff;
+	}
+	#headinfo a:hover {
+		color: gray;
+	}
+	.page_margins {
+		margin: 0px auto;
+	}
+	.page_margins {
+		width: auto;
+		min-width: 900px;
+		max-width: 900px;
+	}
+	.page {
+		padding: 0px;
+	}
+	#header {
+		color: #000;
+		background: #fff;
+		height: 80px;
+		text-align: center;
+	}
+	
+	#header #headernav {
+		color: #000;
+		position: absolute;
+		top: 10px;
+		right: 250px;
+		text-align: right;
+		font-size: 8px;
+	}
+	
+	#header #headernav a {
+	 font-size: 9px;
+	 color: #000;
+	 text-decoration: none;
+	}
+	
+	#header #headernav a:visited {
+	 font-size: 9px;
+	 color: #000;
+	 text-decoration: none;
+	}
+	
+	#header #headernav a:hover {
+	 font-size: 9px;
+	 color: #000;
+	 text-decoration: underline;
+	}
+	
+	#main {
+		margin: 0px 0;
+		background: #fff;
+	}
+	#footer {
+		border-top: 1px #ccc solid;
+		margin: 0px auto;
+		background: #fff;
+		font-size: 11px;
+	}
+	
+	#footer a {
+	 color: #000;
+	}
+	
+	#footer a:visited {
+	 color: #000;
+	}
+	
+	#footer a:hover {
+	 color: #000;
+	 text-decoration: underline;
+	}
+	
+	#main {
+		padding: 0px;
+	}
+	.clear {
+		clear: both;
+	}
+	.separator {
+		height: 5px;
+	}
+	.panel {
+		min-height: 30px;
+		background: #fff;
+	}
+	.titlepanel {
+		min-height: 30px;
+		background: #990000;
+		color: #fff;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.contentmain{ margin: 10px 0px 0px 25px }
+}
